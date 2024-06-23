@@ -5,13 +5,18 @@
 <title>ブログ</title>
 <meta charset="utf-8"/>
 </head>
-<body><div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers tags lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2024-06-23T04:53:15.544Z\&quot; agent=\&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36\&quot; etag=\&quot;xJDmFvwr6J-ysF1ACX3U\&quot; version=\&quot;24.6.2\&quot; type=\&quot;google\&quot;&gt;\n  &lt;diagram name=\&quot;Page-1\&quot; id=\&quot;f1b7ffb7-ca1e-a977-7cf5-a751b3c06c05\&quot;&gt;\n    &lt;mxGraphModel dx=\&quot;792\&quot; dy=\&quot;1145\&quot; grid=\&quot;1\&quot; gridSize=\&quot;10\&quot; guides=\&quot;1\&quot; tooltips=\&quot;1\&quot; connect=\&quot;1\&quot; arrows=\&quot;1\&quot; fold=\&quot;1\&quot; page=\&quot;1\&quot; pageScale=\&quot;1\&quot; pageWidth=\&quot;826\&quot; pageHeight=\&quot;1169\&quot; background=\&quot;none\&quot; math=\&quot;0\&quot; shadow=\&quot;0\&quot;&gt;\n      &lt;root&gt;\n        &lt;mxCell id=\&quot;0\&quot; /&gt;\n        &lt;mxCell id=\&quot;1\&quot; parent=\&quot;0\&quot; /&gt;\n        &lt;mxCell id=\&quot;2\&quot; value=\&quot;Blog Name\&quot; style=\&quot;text;spacingTop=-5;fontSize=18;fontStyle=0\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;70\&quot; y=\&quot;30\&quot; width=\&quot;230\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;8\&quot; value=\&quot;Article 1\&quot; style=\&quot;text;spacingTop=-5;\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;20\&quot; y=\&quot;120\&quot; width=\&quot;30\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;9\&quot; value=\&quot;Lorem ipsum dolor sit amet, &amp;#xa;\&quot; style=\&quot;text;spacingTop=-5;whiteSpace=wrap;align=left\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;20\&quot; y=\&quot;150\&quot; width=\&quot;530\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;28\&quot; value=\&quot;Article 2\&quot; style=\&quot;text;spacingTop=-5;\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;20\&quot; y=\&quot;234\&quot; width=\&quot;30\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;29\&quot; value=\&quot;Lorem ipsum dolor sit amet, &amp;#xa;\&quot; style=\&quot;text;spacingTop=-5;whiteSpace=wrap;align=left\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;20\&quot; y=\&quot;254\&quot; width=\&quot;530\&quot; height=\&quot;86\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;33\&quot; value=\&quot;Article 3\&quot; style=\&quot;text;spacingTop=-5;\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;20\&quot; y=\&quot;350\&quot; width=\&quot;30\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;34\&quot; value=\&quot;Lorem ipsum dolor sit amet, &amp;#xa;\&quot; style=\&quot;text;spacingTop=-5;whiteSpace=wrap;align=left\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;\n          &lt;mxGeometry x=\&quot;20\&quot; y=\&quot;380\&quot; width=\&quot;530\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot; /&gt;\n        &lt;/mxCell&gt;\n        &lt;mxCell id=\&quot;e9n1nSDKmDKdIy0rdTY8-62\&quot; value=\&quot;\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;\&quot; parent=\&quot;1\&quot; edge=\&quot;1\&quot;&gt;\n          &lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;\n            &lt;mxPoint x=\&quot;520\&quot; y=\&quot;1089.9999999999998\&quot; as=\&quot;targetPoint\&quot; /&gt;\n          &lt;/mxGeometry&gt;\n        &lt;/mxCell&gt;\n      &lt;/root&gt;\n    &lt;/mxGraphModel&gt;\n  &lt;/diagram&gt;\n&lt;/mxfile&gt;\n&quot;}"></div>
-<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
-@foreach ($posts as $post)
-    <div class ='post'>
-        <h1 class 'title'>{{$post -> title}}</h1>
-        <p class = 'body'>{{$post -> body}}</p>
+<body>
+    <h1>Blog title</h1>
+
+    @foreach ($posts as $post)
+        <div class ='posts'>
+            <h2 class 'title'>{{$post -> title}}</h1>
+            <p class = 'body'>{{$post -> body}}</p>
+        </div>
+    @endforeach
+    
+    <div class = 'paginate'>
+        {{$posts -> links()}}
     </div>
-@endforeach
 </body>
 </html>
