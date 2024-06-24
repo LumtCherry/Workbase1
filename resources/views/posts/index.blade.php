@@ -9,11 +9,16 @@
     <h1>Blog title</h1>
 
     @foreach ($posts as $post)
-        <div class ='posts'>
-            <h2 class 'title'>{{$post -> title}}</h1>
+        <!--<div class ='posts'>
+            <h2 class 'title'>{{$post -> title}}</h2>
             <p class = 'body'>{{$post -> body}}</p>
-        </div>
-    @endforeach
+        </div>-->
+        <h2 class='title'>
+            <a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
+        </h2>
+    @endforeach-->
+    
+    
     
     <div class = 'paginate'>
         {{$posts -> links()}}
