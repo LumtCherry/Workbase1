@@ -18,7 +18,7 @@
         </h2>
     @endforeach-->
     
-    
+    <a href='/posts/create'>記事の作成</a>
     
     <div class = 'paginate'>
         {{$posts -> links()}}
