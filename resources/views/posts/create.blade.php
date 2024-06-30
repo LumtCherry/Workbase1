@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>Blog</title>
+        <title>カリキュラム8-4</title>
     </head>
     <body>
         <h1>Blog Name</h1>

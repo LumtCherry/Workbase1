@@ -28,6 +28,18 @@ class PostController extends Controller
     {
         $input = $request['post'];//$request['post']で、postをキーにもつリクエストパラメータを取得。キーはHTMLのFormタグ内で定義した各入力項目のname属性と一致する。今回の場合$input は[ 'title' => 'タイトル', 'body' => '本文' ]のような配列型式になる。
         $post->fill($input)->save();//$post->fill($input)とすることで、store関数が実行時点で空だったPostインスタンスのプロパティを、受け取ったキーごとに上書きできる。fillを実行する時、PostModel側でfillableというプロパティにfillが可能なプロパティを指定しておく必要あり。save()でDBへデータを追加
-        return redirect('/posts/' . $post->id);//今回保存したpostのIDを含んだURLにリダイレクトリダイレクトさせる
+        return redirect('/posts/' . $post->id);//今回保存したpostのIDを含んだURLにリダイレクトさせる
+    }
+    
+    public function edit(Post $post)
+    {
+        return view('posts.edit')/*ここだけでedit.blade→の中身は返せている*/->with(['post' => $post]);
+    }
+    
+    public function update(PostRequest $request, Post $post)
+    {
+        $input_post = $request['post'];
+        $post->fill($input_post)->save();//fill →　saveを利用して、差分がある場合のみ更新を実行できる
+        return redirect('/posts/' . $post->id);//今回保存したpostのIDを含んだURLにリダイレクトさせる
     }
 }
