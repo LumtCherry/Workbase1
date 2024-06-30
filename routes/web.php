@@ -29,6 +29,10 @@ Route::post('/posts', [PostController::class, 'store']);
 Route::get('/posts/{post}', [PostController::class ,'show']);
 // '/posts/{対象データのID}'にGetリクエストが来たら、PostControllerのshowメソッドを実行する
 
+Route::get('/posts/{post}/edit', [PostController::class, 'edit']);
+// '/posts/{対象データのID}/edit'にGetリクエストが来たら、PostControllerのeditメソッドを実行する
 
+Route::put('/posts/{post}', [PostController::class, 'update']);
+// '/posts/{対象データのID}'にPutリクエストが来たら,PostControllerのupdateメソッドを実行する
 
 
