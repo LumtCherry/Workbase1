@@ -35,4 +35,5 @@ Route::get('/posts/{post}/edit', [PostController::class, 'edit']);
 Route::put('/posts/{post}', [PostController::class, 'update']);
 // '/posts/{対象データのID}'にPutリクエストが来たら,PostControllerのupdateメソッドを実行する
 
-
+Route::delete('/posts/{post}', [PostController::class,'delete']);
+// '/posts/{対象データのID}'にDeleteリクエストが来たら,PostControllerのdeleteメソッドを実行する

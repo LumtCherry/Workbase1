@@ -42,4 +42,10 @@ class PostController extends Controller
         $post->fill($input_post)->save();//fill →　saveを利用して、差分がある場合のみ更新を実行できる
         return redirect('/posts/' . $post->id);//今回保存したpostのIDを含んだURLにリダイレクトさせる
     }
+    
+    public function delete(Post $post)
+    {
+    $post->delete();//delete ブログ投稿を削除している
+    return redirect('/');//ブログ投稿一覧にリダイレクト
+    }
 }

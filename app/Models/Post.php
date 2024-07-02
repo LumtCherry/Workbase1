@@ -4,9 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;//論理削除のためのやつ
 
 class Post extends Model
 {
+    use SoftDeletes;//論理削除をするためのコマンド　発行されるSQLがUPDATE文になり、deleted_atに実行日時が設定される。
+                    //論理削除が有効になっているモデルでは、deleted_atに値が設定されると以降は削除扱いとなり、検索等で引っかからないようになる。
     use HasFactory;
     
     public function getByLimit(int $limit_count = 10)
